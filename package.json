@@ -1,0 +1,16 @@
+{
+  "name": "init-lib",
+  "version": "0.0.1",
+  "main": "init-lib.js",
+  "author": "@mjeightyfive",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.10",
+    "gulp-mocha-phantomjs": "^0.5.3",
+    "gulp-notify": "^2.1.0",
+    "mocha": "^2.1.0",
+    "should": "^4.6.1",
+    "sinon": "^1.12.2"
+  }
+}

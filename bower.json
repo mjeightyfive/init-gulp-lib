@@ -1,0 +1,21 @@
+{
+  "name": "init-lib",
+  "version": "0.0.1",
+  "authors": [
+    "@mjeightyfive"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sinon": "~1.12.2",
+    "should": "~4.6.1",
+    "chai": "~1.10.0"
+  }
+}
