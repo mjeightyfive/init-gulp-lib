@@ -1,14 +1,15 @@
 # init-lib
 
-## About
-
 Initial files to make a JavaScript library. The AMD/CommonJS pattern taken from [https://github.com/umdjs/umd](https://github.com/umdjs/umd).
 
-## Usage
+## Install
 
-`npm i && bower i` to install dev dependencies.
+`npm i && bower i` to pull dependencies
+`gulp` to run default task
 
-`gulp` to run build, jshint and test
+## Example
+
+## API
 
 ## License
 
