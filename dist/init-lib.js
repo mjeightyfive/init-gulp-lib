@@ -1,7 +1,8 @@
 /*! init-lib | MIT (c) @mjeightyfive  */
 
+'use strict';
+
 (function(root, factory) {
-    'use strict';
 
     if (typeof define === 'function' && define.amd) {
         define(factory);
@@ -11,9 +12,7 @@
         root.InitJSLib = factory();
     }
 })(this, function() {
-    'use strict';
 
-    // merge options in
     function merge(obj) {
         for (var i = 1; i < arguments.length; i++) {
             var def = arguments[i];
@@ -26,16 +25,19 @@
         return obj;
     }
 
-    // built-in options
     var options = {
         name: 'InitJSLib',
         type: 'none'
     };
 
-    // the constructor
     function InitJSLib(o) {
         var opts = merge(o || {}, InitJSLib.options, options);
 
+        /**
+         * Get options
+         * @method getOptions
+         * @returns {Object} user's options
+         */
         var getOptions = function() {
             return opts;
         };
